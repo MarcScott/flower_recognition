@@ -86,8 +86,8 @@ plt.ylim([0,1])
 plt.plot(hist["accuracy"])
 plt.plot(hist["val_accuracy"])
 
-saved_model_path = "/home/mjs/Projects/flower_recognition/saved_flowers_model"
-#saved_model_path = "/tmp/saved_flowers_model"
+#saved_model_path = "/home/mjs/Projects/flower_recognition/saved_flowers_model"
+saved_model_path = "/tmp/saved_flowers_model"
 tf.saved_model.save(model, saved_model_path)
 
 #@title Optimization settings

@@ -1,0 +1,4 @@
+tensorflow
+tb-nightly
+tensorflow-hub
+pillow
